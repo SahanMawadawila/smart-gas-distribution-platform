@@ -29,3 +29,9 @@ eureka:
 jwt:
   secret: your-256-bit-secret-key-here-make-it-long
   expiration: 86400000        # 24 hours in milliseconds
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
