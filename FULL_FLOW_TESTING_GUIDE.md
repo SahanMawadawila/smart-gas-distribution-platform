@@ -247,7 +247,7 @@ Create **5 separate connections** in TablePlus:
 
 | Connection Name | Host | Port | User | Password | Database |
 |---|---|---|---|---|---|
-| 🟦 UserDB | `localhost` | `5432` | `postgres` | `postgres` | `userdb` |
+| 🟦 UserDB | `localhost` | `5440` | `postgres` | `postgres` | `userdb` |
 | 🟩 InventoryDB | `localhost` | `5433` | `postgres` | `postgres` | `inventorydb` |
 | 🟧 AllocationDB | `localhost` | `5434` | `postgres` | `postgres` | `allocationdb` |
 | 🟪 QueueDB | `localhost` | `5435` | `postgres` | `postgres` | `queuedb` |
@@ -339,7 +339,7 @@ curl -X POST http://localhost:8080/api/v1/users/login \
   -H "Content-Type: application/json" \
   -d '{
     "nic": "199001230001",
-    "password": "password"
+    "password": "Pass123!"
   }'
 ```
 
